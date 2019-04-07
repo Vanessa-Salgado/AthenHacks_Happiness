@@ -3,4 +3,5 @@
     <string name="ride_button">Non-emergency</string>
     <string name="title_activity_get_aride">GetARide</string>
     <string name="title_activity_smile">Smile</string>
+    <string name="smile_placeholder">Cuddle my Doge!</string>
 </resources>
