@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">LyftEmergency</string>
-    <string name="ride_button">Non-emergency</string>
-    <string name="title_activity_get_aride">GetARide</string>
+    <string name="app_name">Happiness</string>
+    <string name="title_activity_get_aride">Enter your Happy Thoughts!</string>
     <string name="title_activity_smile">Smile</string>
-    <string name="smile_placeholder">Cuddle my Doge!</string>
+    <string name="smile_placeholder">Cuddling my Doge!</string>
+    <string name ="title">Title:</string>
+    <string name="pictureUpload">Picture:</string>
+    <string name="submitButton">This makes me happy</string>
+    <string name="happyEntry">What makes me happy?</string>
+    <string name="happyRetrieval">Help me smile</string>
 </resources>

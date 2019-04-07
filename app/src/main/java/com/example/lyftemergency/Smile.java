@@ -1,11 +1,13 @@
 package com.example.lyftemergency;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.app.SearchManager;
+import android.webkit.WebView;
+import android.webkit.WebSettings;
+
 
 public class Smile extends AppCompatActivity {
 
@@ -16,14 +18,12 @@ public class Smile extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-    }
+        WebView search = (WebView) findViewById(R.id.webView);
 
+        WebSettings webSettings = search.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+
+        search.loadUrl("https://www.google.com/search?q=cuddling+my+dog&oq=cuddling+my+dog&aqs=chrome..69i57j0l5.2421j0j7&sourceid=chrome&ie=UTF-8");
+
+    }
 }
