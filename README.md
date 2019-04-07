@@ -1,1 +1,1 @@
-# LyftEmergency
+# Happiness Project
