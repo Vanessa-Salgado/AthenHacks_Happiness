@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LyftEmergency</string>
+    <string name="ride_button">Non-emergency</string>
+    <string name="title_activity_get_aride">GetARide</string>
+</resources>
