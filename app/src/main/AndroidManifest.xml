@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Smile"
+            android:name="com.example.lyftemergency.Smile"
             android:label="@string/title_activity_smile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".GetARide"
+            android:name="com.example.lyftemergency.GetARide"
             android:label="GetARide"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.lyftemergency.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
